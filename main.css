@@ -11,7 +11,8 @@ body {
   }
   
   #header {
-    text-align:right;
+    display: flex;
+    justify-content: space-between;
   }
   
   #main {
@@ -60,6 +61,7 @@ body {
     border:0px;
     float:left;
     text-align:center;
+    text-decoration: none;
   }
   
   #red {
